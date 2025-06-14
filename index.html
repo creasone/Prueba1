@@ -18,70 +18,62 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#resumen">Resumen</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experiencia">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#formacion">Formación</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#resumen">Resumen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <main class="container my-5">
-    <div class="row">
-      <!-- Perfil lateral -->
-      <aside class="col-md-4">
-        <div class="card">
-          <img src="./Assets/Imgs/Formal -trabajo 20240327.jpg" class="card-img-top" alt="Foto de perfil Iván Barrios">
-          <div class="card-body">
-            <h2 class="card-title text-center">Iván Barrios Morales</h2>
-            <h6 class="text-muted text-center">Ingeniero en Administración mención Finanzas</h6>
-            <h6 class="text-muted text-center">Desarrollador Full Stack JavaScript</h6>
-            <hr>
-            <h5>Datos Personales</h5>
-            <ul class="list-unstyled">
-              <li><strong>Teléfono:</strong> +56948872807</li>
-              <li><strong>Correo:</strong> ivan.barrios.m26@hotmail.com</li>
-            </ul>
-            <hr>
-            <h5>Habilidades</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Excel Avanzado</li>
-              <li class="list-group-item">Power BI</li>
-              <li class="list-group-item">Looker Studio</li>
-              <li class="list-group-item">Power Query</li>
-              <li class="list-group-item">Power Pivot</li>
-              <li class="list-group-item">SQL</li>
-              <li class="list-group-item">SAP</li>
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">modificación 2</li>
-              <li class="list-group-item">modificación 3</li>
-            </ul>
-          </div>
-        </div>
-      </aside>
+  <main>
 
-      <!-- Contenido principal -->
-      <section class="col-md-8">
-        <h2 id="resumen" class="mb-3">Resumen Profesional</h2>
-        <p>Ingeniero en Ejecución en Administración de Empresas con mención en Finanzas [...]</p>
+    <!-- Perfil lateral -->
+    <aside class="perfil bg-light py-4 px-3">
+      <div class="container text-center">
+        <img src="./Assets/Imgs/Formal -trabajo 20240327.jpg" class="img-fluid rounded mb-3 perfil-foto" alt="Foto de perfil Iván Barrios">
+        <h2>Iván Barrios Morales</h2>
+        <h6 class="text-muted">Ingeniero en Administración mención Finanzas</h6>
+        <h6 class="text-muted">Desarrollador Full Stack JavaScript</h6>
+        <hr>
+        <h5>Datos Personales</h5>
+        <ul class="list-unstyled">
+          <li><strong>Teléfono:</strong> +56948872807</li>
+          <li><strong>Correo:</strong> ivan.barrios.m26@hotmail.com</li>
+        </ul>
+        <hr>
+        <h5>Habilidades</h5>
+        <ul class="list-group list-group-horizontal flex-wrap justify-content-center">
+          <li class="list-group-item border-0">Excel Avanzado</li>
+          <li class="list-group-item border-0">Power BI</li>
+          <li class="list-group-item border-0">Looker Studio</li>
+          <li class="list-group-item border-0">Power Query</li>
+          <li class="list-group-item border-0">Power Pivot</li>
+          <li class="list-group-item border-0">SQL</li>
+          <li class="list-group-item border-0">SAP</li>
+          <li class="list-group-item border-0">HTML</li>
+          <li class="list-group-item border-0">modificación 2</li>
+          <li class="list-group-item border-0">modificación 3</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Contenido principal -->
+    <section class="contenido py-5 px-3">
+      <div class="container">
+        <h2 id="resumen" class="mb-4">Resumen Profesional</h2>
+        <p>Ingeniero en Ejecución en Administración de Empresas con mención en Finanzas, con más de 4 años de experiencia en análisis financiero, control de gestión y optimización de procesos operativos.</p>
+        <p>Mi objetivo es seguir desarrollando mis habilidades en el ámbito financiero y de control de gestión, contribuyendo al crecimiento y éxito de la empresa mediante un análisis riguroso y una gestión eficiente de los recursos.</p>
 
         <details id="experiencia" class="mb-4">
           <summary class="h5">Experiencia Laboral</summary>
-          <p class="mt-2">[...]</p>
+          <p class="mt-2">Clear Channel, Cristal Chile, Servicios Logísticos DGA, Trio Group [...]</p>
         </details>
 
         <details id="formacion" class="mb-4">
           <summary class="h5">Formación Académica</summary>
-          <p class="mt-2">[...]</p>
+          <p class="mt-2">Desarrollador Full Stack (Desafío Latam), AIEP, INACAP [...]</p>
         </details>
 
         <div id="contacto" class="mt-4">
@@ -89,8 +81,9 @@
           <a class="btn btn-outline-primary btn-sm me-2" href="http://www.linkedin.com/in/iv%C3%A1n-b-062bb1135" target="_blank">LinkedIn</a>
           <a class="btn btn-outline-secondary btn-sm" href="Desafio_latam/portafoliodesafiolatam.html" target="_blank">Portafolio Web</a>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="bg-dark text-white text-center py-3">
@@ -100,4 +93,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
